@@ -2,7 +2,7 @@ import React from "react";
 import "../index.css";
 
 const Navbar = () => {
-  const menuItem = ["Home", "Shop", "Services", "About Us"].map((item) => (
+  const menuItem = ["Home", "Shop", "Services"].map((item) => (
     <li className="p-2 cursor-pointer hover:bg-gray-500 hover:bg-opacity-75 rounded-lg">{item}</li>
   ));
   return (
